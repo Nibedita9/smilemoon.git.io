@@ -1,0 +1,78 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: #000033;
+}
+.container{
+	position: absolute;
+}
+.moon{
+	height: 10em;
+	width: 10em;
+	background-color: white;
+	border-radius: 50%;
+	box-shadow: 0 0 17px white,
+	0 0 1px 15px rgba(32,105,149,0.7),
+	0 0 1px 35px rgba(32,105,149,0.5),
+	0 0 1px 50px rgba(32,105,149,0.3),
+	0 0 1px 70px rgba(32,105,149,0.1);
+
+}
+.eye1{
+	height: 16px;
+	width: 12px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	top: 31%;
+	left: 22%;
+	animation: blink 3s linear infinite;
+}
+.eye1:nth-child(2){
+	position: absolute;
+	left:69%;
+	top: 30%;
+}
+@keyframes blink{
+	40%{
+		transform: scaleY(0.3);
+	}
+}
+.mouth{
+	height: 24px;
+	width: 49px;
+	position: absolute;
+	background-color: black;
+	border-bottom-left-radius: 48px;
+	border-bottom-right-radius: 48px;
+	top: 64%;
+	left: 34%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
